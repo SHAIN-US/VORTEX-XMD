@@ -7,9 +7,9 @@ function convertToBool(text, fault = 'true') {
 
 module.exports = {
     // ==============================
-    //          SESSION
+    //          SESSION 
     // ==============================
-    SESSION_ID: process.env.SESSION_ID || "",
+    SESSION_ID: HansTz&ishA2KgD#bpiwo2yHb7j9QaNZTkgKQm0SD2KPJ57LXFE48hs5wSw.env.SESSION_ID || "",
 
     // ==============================
     //           OWNER
@@ -27,14 +27,14 @@ module.exports = {
     // ==============================
     //            MODE
     // ==============================
-    MODE: process.env.MODE || "public",
+    MODE: process.env.MODE || "Private",
     PUBLIC_MODE: process.env.PUBLIC_MODE || "true",
-    ALWAYS_ONLINE: process.env.ALWAYS_ONLINE || "false",
+    ALWAYS_ONLINE: process.env.ALWAYS_ONLINE || "true",
 
     // ==============================
     //          CHATBOT
     // ==============================
-    CHAT_BOT: process.env.CHAT_BOT || "false",
+    CHAT_BOT: process.env.CHAT_BOT || "true",
     BAILEYS: process.env.BAILEYS || "@whiskeysockets/baileys",
 
     // ==============================
@@ -42,29 +42,29 @@ module.exports = {
     // ==============================
     ANTI_DELETE: process.env.ANTI_DELETE || "true",
     ANTI_DEL_PATH: process.env.ANTI_DEL_PATH || "some",
-    READ_MESSAGE: process.env.READ_MESSAGE || "false",
-    AUTO_REACT: process.env.AUTO_REACT || "false",
-    AUTO_REPLY: process.env.AUTO_REPLY || "false",
-    AUTO_TYPING: process.env.AUTO_TYPING || "false",
-    READ_CMD: process.env.READ_CMD || "false",
-    AUTO_RECORDING: process.env.AUTO_RECORDING || "false",
+    READ_MESSAGE: process.env.READ_MESSAGE || "true",
+    AUTO_REACT: process.env.AUTO_REACT || "true",
+    AUTO_REPLY: process.env.AUTO_REPLY || "true",
+    AUTO_TYPING: process.env.AUTO_TYPING || "true",
+    READ_CMD: process.env.READ_CMD || "true",
+    AUTO_RECORDING: process.env.AUTO_RECORDING || "true",
     
     // ==============================
     //           GROUP
     // ==============================
-    WELCOME: process.env.WELCOME || "false",
-    ADMIN_EVENTS: process.env.ADMIN_EVENTS || "false",
-    ANTI_LINK: process.env.ANTI_LINK || "false",
-    ANTI_LINK_KICK: process.env.ANTI_LINK_KICK || "false",
-    ANTI_BAD: process.env.ANTI_BAD || "false",
-    DELETE_LINKS: process.env.DELETE_LINKS || "false",
-    MENTION_REPLY: process.env.MENTION_REPLY || "false",
+    WELCOME: process.env.WELCOME || "true",
+    ADMIN_EVENTS: process.env.ADMIN_EVENTS || "trur",
+    ANTI_LINK: process.env.ANTI_LINK || "true",
+    ANTI_LINK_KICK: process.env.ANTI_LINK_KICK || "true",
+    ANTI_BAD: process.env.ANTI_BAD || "true",
+    DELETE_LINKS: process.env.DELETE_LINKS || "true",
+    MENTION_REPLY: process.env.MENTION_REPLY || "true",
 
     // ==============================
     //          STATUS
     // ==============================
     AUTO_STATUS_SEEN: process.env.AUTO_STATUS_SEEN || "true",
-    AUTO_STATUS_REPLY: process.env.AUTO_STATUS_REPLY || "false",
+    AUTO_STATUS_REPLY: process.env.AUTO_STATUS_REPLY || "true",
     AUTO_STATUS_REACT: process.env.AUTO_STATUS_REACT || "true",
     AUTO_STATUS_MSG: process.env.AUTO_STATUS_MSG || "*SEEN YOUR STATUS BY 𝐕𝐎𝐑𝐓𝐄𝐗-𝐗𝐌𝐃*",
     
@@ -82,7 +82,7 @@ module.exports = {
     // ==============================
     //         REACTIONS
     // ==============================
-    CUSTOM_REACT: process.env.CUSTOM_REACT || "false",
+    CUSTOM_REACT: process.env.CUSTOM_REACT || "true",
     CUSTOM_REACT_EMOJIS: process.env.CUSTOM_REACT_EMOJIS || "💝,💖,💗,❤️‍🩹,❤️,🧡,💛,💚,💙,💜,🤎,🖤,🤍",
 
     // ==============================
@@ -93,5 +93,5 @@ module.exports = {
     // ==============================
     //         STICKER
     // ==============================
-    AUTO_STICKER: process.env.AUTO_STICKER || "false"
+    AUTO_STICKER: process.env.AUTO_STICKER || "true"
 };
